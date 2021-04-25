@@ -31,6 +31,9 @@ public class Alumno extends Profesor {
 
     //Metodo sobrecarga
     public void DatosDesempeño() {
+        int NumAlum=7;
+        System.out.println("El numero de estudiante que quiere es: "+NumAlum);
+        for(int i=0;i<=NumAlum;i++){
         do {
 
             opc = JOptionPane.showInputDialog(null, "                     ----- Datos Academicos -----"
@@ -74,6 +77,7 @@ public class Alumno extends Profesor {
 
         } while (!opc.equalsIgnoreCase("B"));
 
+    }
     }
 
     public void Salida() {
